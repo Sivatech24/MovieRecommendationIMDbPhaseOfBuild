@@ -1,0 +1,74 @@
+/* Featured Movies Page */
+.featured-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden; /* Hide the overflow for smooth animation */
+  }
+  
+  .featured-carousel {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    animation: scrollMovies 20s linear infinite; /* Animation to scroll movies */
+  }
+  
+  .featured-movie-card {
+    width: 250px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 10px;
+    transform-origin: center;
+  }
+  
+  .featured-movie-card:hover {
+    transform: scale(1.05); /* Zoom-in effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .featured-movie-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .featured-movie-card h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  /* Keyframes for continuous scrolling of movies */
+  @keyframes scrollMovies {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%); /* Move the carousel to the left */
+    }
+  }
+  
+  .featured-button {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .featured-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  

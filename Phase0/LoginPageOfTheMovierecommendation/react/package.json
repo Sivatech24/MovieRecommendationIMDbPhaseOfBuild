@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "firebase": "^11.0.2",
+    "web-vitals": "^4.2.4"
+  }
+}
