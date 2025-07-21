@@ -1,0 +1,4 @@
+mongodb+srv://<db_username>:<db_password>@movierecommendation.nwujz.mongodb.net/?retryWrites=true&w=majority&appName=MovieRecommendation
+
+
+mongodb+srv://tech:tech2410@movierecommendation.nwujz.mongodb.net/collection?retryWrites=true&w=majority&appName=MovieRecommendation

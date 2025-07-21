@@ -1,0 +1,3 @@
+https://stackoverflow.com/questions/16330404/how-to-remove-remote-origin-from-a-git-repository
+
+git remote remove origin

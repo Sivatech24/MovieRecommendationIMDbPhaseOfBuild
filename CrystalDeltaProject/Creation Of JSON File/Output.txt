@@ -1,0 +1,148 @@
+fileformatter.py
+Enter the number of movies: 18
+
+Entering details for movie 1:
+Enter movie ID: 1
+Enter movie name: Amaran
+Enter thumbnail URL: https://github.com/Sivatech24/ImageHost/blob/a2c6febd1bf7e9d12be4e0f59754adfcac29da59/ImagesForMovies/amaran.jpg
+Enter movie rating (out of 10): 8
+Enter user rating (out of 10): 9
+Enter video URL: https://youtu.be/H7FT-d4YA74?si=-cQvgJsVIWs0PzX0
+
+Entering details for movie 2:
+Enter movie ID: 2
+Enter movie name: Dune
+Enter thumbnail URL: https://github.com/Sivatech24/ImageHost/blob/a2c6febd1bf7e9d12be4e0f59754adfcac29da59/ImagesForMovies/dune.jpg
+Enter movie rating (out of 10): 8
+Enter user rating (out of 10): 8
+Enter video URL: https://youtu.be/n9xhJrPXop4?si=b3MPwLVdEAX_zXl8
+
+Entering details for movie 3:
+Enter movie ID: 3
+Enter movie name: Gladiator
+Enter thumbnail URL: https://github.com/Sivatech24/ImageHost/blob/a2c6febd1bf7e9d12be4e0f59754adfcac29da59/ImagesForMovies/gladiator.jpg
+Enter movie rating (out of 10): 7
+Enter user rating (out of 10): 8
+Enter video URL: https://youtu.be/P5ieIbInFpg?si=6FWQ1UMXZ3KY2w-F
+
+Entering details for movie 4:
+Enter movie ID: 4
+Enter movie name: Lucky-baskhar
+Enter thumbnail URL: https://github.com/Sivatech24/ImageHost/blob/a2c6febd1bf7e9d12be4e0f59754adfcac29da59/ImagesForMovies/lucky-baskhar.jpg
+Enter movie rating (out of 10): 9
+Enter user rating (out of 10): 8
+Enter video URL: https://youtu.be/vs6JMdKjoVI?si=O-PXbTixoFaE6IEm
+
+Entering details for movie 5:
+Enter movie ID: 5
+Enter movie name: Moana2
+Enter thumbnail URL: https://github.com/Sivatech24/ImageHost/blob/a2c6febd1bf7e9d12be4e0f59754adfcac29da59/ImagesForMovies/moana2.jpg
+Enter movie rating (out of 10): 9
+Enter user rating (out of 10): 8
+Enter video URL: https://youtu.be/hDZ7y8RP5HE?si=3KnTqm2fr6pAoSOA
+
+Entering details for movie 6:
+Enter movie ID: 6
+Enter movie name: Wicked
+Enter thumbnail URL: https://github.com/Sivatech24/ImageHost/blob/a2c6febd1bf7e9d12be4e0f59754adfcac29da59/ImagesForMovies/wicked.jpg
+Enter movie rating (out of 10): 7
+Enter user rating (out of 10): 7
+Enter video URL: https://youtu.be/6COmYeLsz4c?si=cTtORdS5znxpl7Js
+
+Entering details for movie 7:
+Enter movie ID: 7
+Enter movie name: IronMan
+Enter thumbnail URL: https://github.com/Sivatech24/ImageHost/blob/a2c6febd1bf7e9d12be4e0f59754adfcac29da59/ImagesForMovies/IronMan.jpg
+Enter movie rating (out of 10): 9
+Enter user rating (out of 10): 9
+Enter video URL: https://youtu.be/8ugaeA-nMTc?si=DPvhsG80sUApxSK0
+
+Entering details for movie 8:
+Enter movie ID: 8
+Enter movie name: Our Little Secret
+Enter thumbnail URL: https://github.com/Sivatech24/ImageHost/blob/a2c6febd1bf7e9d12be4e0f59754adfcac29da59/ImagesForMovies/Our%20Little%20Secret.jpg
+Enter movie rating (out of 10): 7
+Enter user rating (out of 10): 7
+Enter video URL: https://youtu.be/fcc9G9PXTEE?si=xBboOT8Cx4jtLW1s
+
+Entering details for movie 9:
+Enter movie ID: 9
+Enter movie name: Pushpa
+Enter thumbnail URL: https://github.com/Sivatech24/ImageHost/blob/a2c6febd1bf7e9d12be4e0f59754adfcac29da59/ImagesForMovies/Pushpa.jpg
+Enter movie rating (out of 10): 8
+Enter user rating (out of 10): 7
+Enter video URL: https://youtu.be/1kVK0MZlbI4?si=d_wGNd8Ni7YxUhCy
+
+Entering details for movie 10:
+Enter movie ID: 10
+Enter movie name: Gladiator1
+Enter thumbnail URL: https://github.com/Sivatech24/ImageHost/blob/a2c6febd1bf7e9d12be4e0f59754adfcac29da59/ImagesForMovies/Gladiator1.jpg
+Enter movie rating (out of 10): 8
+Enter user rating (out of 10): 9
+Enter video URL: https://youtu.be/P5ieIbInFpg?si=ixoc7ArybaeLeVjk
+
+Entering details for movie 11:
+Enter movie ID: 11
+Enter movie name: Conclave
+Enter thumbnail URL: https://github.com/Sivatech24/ImageHost/blob/a2c6febd1bf7e9d12be4e0f59754adfcac29da59/ImagesForMovies/Conclave.jpg
+Enter movie rating (out of 10): 8
+Enter user rating (out of 10): 7
+Enter video URL: https://youtu.be/JX9jasdi3ic?si=YX33l-WW1Xu4XWjh
+
+Entering details for movie 12:
+Enter movie ID: 12
+Enter movie name: Snow White
+Enter thumbnail URL: https://github.com/Sivatech24/ImageHost/blob/a2c6febd1bf7e9d12be4e0f59754adfcac29da59/ImagesForMovies/Snow%20White.jpg
+Enter movie rating (out of 10): 8
+Enter user rating (out of 10): 8
+Enter video URL: https://youtu.be/iV46TJKL8cU?si=xuuuTP1w2vfsJ5th
+
+Entering details for movie 13:
+Enter movie ID: 13
+Enter movie name: Deadpool & Wolverine
+Enter thumbnail URL: https://github.com/Sivatech24/ImageHost/blob/a2c6febd1bf7e9d12be4e0f59754adfcac29da59/ImagesForMovies/Deadpool%20%26%20Wolverine.jpg
+Enter movie rating (out of 10): 8
+Enter user rating (out of 10): 8
+Enter video URL: https://youtu.be/73_1biulkYk?si=M9cy4UxhFkhkRt3y
+
+Entering details for movie 14:
+Enter movie ID: 14
+Enter movie name: Smile 2
+Enter thumbnail URL: https://github.com/Sivatech24/ImageHost/blob/a2c6febd1bf7e9d12be4e0f59754adfcac29da59/ImagesForMovies/Smile%202.jpg
+Enter movie rating (out of 10): 8
+Enter user rating (out of 10): 6
+Enter video URL: https://youtu.be/0HY6QFlBzUY?si=gmWa7oLvgK9yeXcm
+
+Entering details for movie 15:
+Enter movie ID: 15
+Enter movie name: The Merry Gentlemen
+Enter thumbnail URL: https://github.com/Sivatech24/ImageHost/blob/a2c6febd1bf7e9d12be4e0f59754adfcac29da59/ImagesForMovies/The%20Merry%20Gentlemen.jpg
+Enter movie rating (out of 10): 7
+Enter user rating (out of 10): 7
+Enter video URL: https://youtu.be/G80Q8-MJM1A?si=hftkwDmkyOohNdZQ
+
+Entering details for movie 16:
+Enter movie ID: 16
+Enter movie name: Thor
+Enter thumbnail URL: https://github.com/Sivatech24/ImageHost/blob/a2c6febd1bf7e9d12be4e0f59754adfcac29da59/ImagesForMovies/Thor.jpg
+Enter movie rating (out of 10): 8
+Enter user rating (out of 10): 8
+Enter video URL: https://youtu.be/JOddp-nlNvQ?si=C4WXIv72L8IUHRdW
+
+Entering details for movie 17:
+Enter movie ID: 17
+Enter movie name: Avengers Endgame
+Enter thumbnail URL: https://github.com/Sivatech24/ImageHost/blob/a2c6febd1bf7e9d12be4e0f59754adfcac29da59/ImagesForMovies/Avengers%20Endgame.jpg
+Enter movie rating (out of 10): 8
+Enter user rating (out of 10): 8
+Enter video URL: https://youtu.be/TcMBFSGVi1c?si=AF4yfc3DsOsieve7
+
+Entering details for movie 18:
+Enter movie ID: 18
+Enter movie name: Squid Game
+Enter thumbnail URL: https://github.com/Sivatech24/ImageHost/blob/a2c6febd1bf7e9d12be4e0f59754adfcac29da59/ImagesForMovies/Squid%20Game.jpg
+Enter movie rating (out of 10): 8
+Enter user rating (out of 10): 9
+Enter video URL: https://youtu.be/oqxAJKy0ii4?si=S8Nx9WoL-ngfBwHN
+
+Movie details saved to movies.json

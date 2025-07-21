@@ -1,0 +1,143 @@
+// import of movies
+import Amaran from './amaran';  // Ensure Amaran is a React component
+import Moana from './moana';
+import Dune from './dune';
+import Gladiator from './gladiator';
+import Gladiator1 from './Gladiator1';
+import Luckybaskhar from './luckybaskhar';
+import Wicked from './wicked';
+import IronMan from './IronMan';
+import OurLittleSecret from './OurLittleSecret';
+import Pushpa from './Pushpa';
+import Conclave from './Conclave';
+import SnowWhite from './SnowWhite';
+import DeadpoolWolverine from './DeadpoolWolverine';
+import Smile2 from './Smile2';
+import TheMerryGentlemen from './TheMerryGentlemen';
+import Thor from './Thor';
+import AvengersEndgame from './AvengersEndgame';
+import SquidGame from './SquidGame';
+
+
+const [currentPage, setCurrentPage] = useState(null); // Track the current page for rendering
+
+
+// pages
+  
+
+  const navigateToMovie = (page) => {
+    switch (page) {
+      case 'amaran':
+        setCurrentPage('amaran'); // Set the page to Amaran
+        break;
+      case 'moana':
+        setCurrentPage('moana'); // Set the page to Avatar
+        break;
+      case 'dune':
+        setCurrentPage('dune'); // Set the page to Inception
+        break;
+      case 'Gladiator':
+        setCurrentPage('Gladiator'); // Set the page to Inception
+        break;
+      case 'Gladiator1':
+        setCurrentPage('Gladiator1'); // Set the page to Inception
+        break;
+      case 'Luckybaskhar':
+        setCurrentPage('Luckybaskhar'); // Set the page to Inception
+        break;
+      case 'Wicked':
+        setCurrentPage('Wicked'); // Set the page to Inception
+        break;
+      case 'IronMan':
+        setCurrentPage('IronMan'); // Set the page to Inception
+        break;
+      case 'OurLittleSecret':
+        setCurrentPage('OurLittleSecret'); // Set the page to Inception
+        break;
+      case 'Pushpa':
+        setCurrentPage('Pushpa'); // Set the page to Inception
+        break;
+      case 'Conclave':
+        setCurrentPage('Conclave'); // Set the page to Inception
+        break;
+      case 'SnowWhite':
+        setCurrentPage('SnowWhite'); // Set the page to Inception
+        break;
+      case 'DeadpoolWolverine':
+        setCurrentPage('DeadpoolWolverine'); // Set the page to Inception
+        break;
+      case 'Smile2':
+        setCurrentPage('Smile2'); // Set the page to Inception
+        break;
+      case 'TheMerryGentlemen':
+        setCurrentPage('TheMerryGentlemen'); // Set the page to Inception
+        break;
+      case 'Thor':
+        setCurrentPage('Thor'); // Set the page to Inception
+        break;
+      case 'AvengersEndgame':
+        setCurrentPage('AvengersEndgame'); // Set the page to Inception
+        break;
+      case 'SquidGame':
+        setCurrentPage('SquidGame'); // Set the page to Inception
+        break;
+      default:
+        window.location.href = page; // Navigate to other URLs
+        break;
+    }
+  };
+
+  if (currentPage === 'amaran') {
+    return <Amaran />; // Render the Amaran component
+  }
+  if (currentPage === 'moana') {
+    return <Moana />; // Render the Avatar component
+  }
+  if (currentPage === 'dune') {
+    return <Dune />; // Render the Inception component
+  }
+  if (currentPage === 'Gladiator') {
+    return <Gladiator />; // Render the Inception component
+  }
+  if (currentPage === 'Gladiator1') {
+    return <Gladiator1 />; // Render the Inception component
+  }
+  if (currentPage === 'Luckybaskhar') {
+    return <Luckybaskhar />; // Render the Inception component
+  }
+  if (currentPage === 'Wicked') {
+    return <Wicked />; // Render the Inception component
+  }
+  if (currentPage === 'IronMan') {
+    return <IronMan />; // Render the Inception component
+  }
+  if (currentPage === 'OurLittleSecret') {
+    return <OurLittleSecret />; // Render the Inception component
+  }
+  if (currentPage === 'Pushpa') {
+    return <Pushpa />; // Render the Inception component
+  }
+  if (currentPage === 'Conclave') {
+    return <Conclave />; // Render the Inception component
+  }
+  if (currentPage === 'SnowWhite') {
+    return <SnowWhite />; // Render the Inception component
+  }
+  if (currentPage === 'DeadpoolWolverine') {
+    return <DeadpoolWolverine />; // Render the Inception component
+  }
+  if (currentPage === 'Smile2') {
+    return <Smile2 />; // Render the Inception component
+  }
+  if (currentPage === 'TheMerryGentlemen') {
+    return <TheMerryGentlemen />; // Render the Inception component
+  }
+  if (currentPage === 'Thor') {
+    return <Thor />; // Render the Inception component
+  }
+  if (currentPage === 'AvengersEndgame') {
+    return <AvengersEndgame />; // Render the Inception component
+  }
+  if (currentPage === 'SquidGame') {
+    return <SquidGame />; // Render the Inception component
+  }

@@ -1,0 +1,95 @@
+// navigation bar element import
+import Imdb from'./imdb';
+import User from './user';
+import Recommendation from './recommendation';
+import Search from './search';
+import Save from './save';
+import Featured from './featured';
+import Menu from './menu';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMagnifyingGlass, faBookmark, faUser } from '@fortawesome/free-solid-svg-icons';
+import { useState } from 'react';
+
+
+
+const [currentName, setCurrentName] = useState(null);
+
+
+
+// navigation bar
+  const navigateToNav = (name) => {
+    switch (name) {
+      case 'imdb':
+        setCurrentName('imdb');
+        break;
+      case 'menu':
+        setCurrentName('menu');
+        break;
+      case 'featured':
+        setCurrentName('featured');
+        break;
+      case 'recommendation':
+        setCurrentName('recommendation');
+        break;
+      case 'search':
+        setCurrentName('search');
+        break;
+      case 'save':
+        setCurrentName('save');
+        break;
+      case 'user':
+        setCurrentName('user');
+        break;
+        default:
+         window.location.href = name; // Navigate to other URLs
+          break;
+    }
+  };
+
+  if (currentName === 'imdb') {
+    return <Imdb />;
+  } 
+  if (currentName === 'user') {
+    return <User />;
+  }
+  if (currentName === 'save') {
+    return <Save />;
+  }
+  if (currentName === 'menu') {
+    return <Menu />;
+  }
+  if (currentName === 'featured') {
+    return <Featured />;
+  }
+  if (currentName === 'recommendation') {
+    return <Recommendation />;
+  }
+  if (currentName === 'search') {
+    return <Search />;
+  }
+
+
+
+
+
+
+{/* Navigation Bar */}
+            <div className="navbar">
+            <div className="nav-container">
+                <button onClick={() => navigateToNav('imdb')}>IMDb</button>
+                <button onClick={() => navigateToNav('menu')}>Menu</button>
+                <button onClick={() => navigateToNav('featured')}>Featured Films</button>
+                <button onClick={() => navigateToNav('recommendation')}>Recommendation</button>
+                <button onClick={() => navigateToNav('search')}>
+                  <FontAwesomeIcon icon={faMagnifyingGlass} /> Search
+                </button>
+                <button onClick={() => navigateToNav('save')}>
+                  <FontAwesomeIcon icon={faBookmark} /> Save
+                </button>
+                <button onClick={() => navigateToNav('user')}>
+                  <FontAwesomeIcon icon={faUser} /> User
+                </button>
+              </div>
+            </div>
+
+

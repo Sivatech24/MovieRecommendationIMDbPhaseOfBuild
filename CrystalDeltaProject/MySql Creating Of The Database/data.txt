@@ -1,0 +1,34 @@
+CREATE DATABASE MoviesDB;
+
+
+USE MoviesDB;
+
+CREATE TABLE Movies (
+    id INT PRIMARY KEY,
+    name VARCHAR(255),
+    thumbnail_url VARCHAR(255),
+    rating FLOAT,
+    user_rating FLOAT,
+    video_url VARCHAR(255)
+);
+
+
+INSERT INTO Movies (id, name, thumbnail_url, rating, user_rating, video_url) VALUES
+(1, 'Amaran', 'https://i.ibb.co/3pCfZ8c/amaran.jpg', 8.0, 9.0, 'https://youtu.be/H7FT-d4YA74?si=-cQvgJsVIWs0PzX0'),
+(2, 'Dune', 'https://i.ibb.co/0mFszX8/dune.jpg', 8.0, 8.0, 'https://youtu.be/n9xhJrPXop4?si=b3MPwLVdEAX_zXl8'),
+(3, 'Gladiator', 'https://i.ibb.co/FbZmTjk/gladiator.jpg', 7.0, 8.0, 'https://youtu.be/P5ieIbInFpg?si=6FWQ1UMXZ3KY2w-F'),
+(4, 'Lucky-baskhar', 'https://i.ibb.co/7bX8f88/lucky-baskhar.jpg', 9.0, 8.0, 'https://youtu.be/vs6JMdKjoVI?si=O-PXbTixoFaE6IEm'),
+(5, 'Moana2', 'https://i.ibb.co/C6MfLLh/moana2.jpg', 9.0, 8.0, 'https://youtu.be/hDZ7y8RP5HE?si=3KnTqm2fr6pAoSOA'),
+(6, 'Wicked', 'https://i.ibb.co/1K8yCg7/wicked.jpg', 7.0, 7.0, 'https://youtu.be/6COmYeLsz4c?si=cTtORdS5znxpl7Js'),
+(7, 'IronMan', 'https://i.ibb.co/5M11sx2/IronMan.jpg', 9.0, 9.0, 'https://youtu.be/8ugaeA-nMTc?si=DPvhsG80sUApxSK0'),
+(8, 'Our Little Secret', 'https://i.ibb.co/m0ys75J/Our-Little-Secret.jpg', 7.0, 7.0, 'https://youtu.be/fcc9G9PXTEE?si=xBboOT8Cx4jtLW1s'),
+(9, 'Pushpa', 'https://i.ibb.co/WpkRfzX/Pushpa.jpg', 8.0, 7.0, 'https://youtu.be/1kVK0MZlbI4?si=d_wGNd8Ni7YxUhCy'),
+(10, 'Gladiator1', 'https://i.ibb.co/yP55dpy/gladiator1.jpg', 8.0, 9.0, 'https://youtu.be/P5ieIbInFpg?si=ixoc7ArybaeLeVjk'),
+(11, 'Conclave', 'https://i.ibb.co/9NZHsYn/Conclave.jpg', 8.0, 7.0, 'https://youtu.be/JX9jasdi3ic?si=YX33l-WW1Xu4XWjh'),
+(12, 'Snow White', 'https://i.ibb.co/V3WThWT/Snow-White.jpg', 8.0, 8.0, 'https://youtu.be/iV46TJKL8cU?si=xuuuTP1w2vfsJ5th'),
+(13, 'Deadpool & Wolverine', 'https://i.ibb.co/pw7g16M/Deadpool-Wolverine.jpg', 8.0, 8.0, 'https://youtu.be/73_1biulkYk?si=M9cy4UxhFkhkRt3y'),
+(14, 'Smile 2', 'https://i.ibb.co/WGDxM5z/Smile-2.jpg', 8.0, 6.0, 'https://youtu.be/0HY6QFlBzUY?si=gmWa7oLvgK9yeXcm'),
+(15, 'The Merry Gentlemen', 'https://i.ibb.co/Z2Mb45s/The-Merry-Gentlemen.jpg', 7.0, 7.0, 'https://youtu.be/G80Q8-MJM1A?si=hftkwDmkyOohNdZQ'),
+(16, 'Thor', 'https://i.ibb.co/Jmc52vj/Thor.jpg', 8.0, 8.0, 'https://youtu.be/JOddp-nlNvQ?si=C4WXIv72L8IUHRdW'),
+(17, 'Avengers Endgame', 'https://i.ibb.co/ZmZj9bC/Avengers-Endgame1.jpg', 8.0, 8.0, 'https://youtu.be/TcMBFSGVi1c?si=AF4yfc3DsOsieve7'),
+(18, 'Squid Game', 'https://i.ibb.co/nkSYfQg/Squid-Game.jpg', 8.0, 9.0, 'https://youtu.be/oqxAJKy0ii4?si=S8Nx9WoL-ngfBwHN');
